@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE4A6BF31E82E47A00C42314 /* BlueTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A6BF21E82E47A00C42314 /* BlueTableViewController.swift */; };
+		DE4A6BF51E82E58900C42314 /* ShadesOfBlueTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4A6BF41E82E58900C42314 /* ShadesOfBlueTableViewCell.swift */; };
+		DE4A6BF81E82E76D00C42314 /* Purple.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4A6BF61E82E76D00C42314 /* Purple.jpg */; };
+		DE4A6BF91E82E76D00C42314 /* Darkblue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4A6BF71E82E76D00C42314 /* Darkblue.jpg */; };
+		DE4A6BFB1E82E77200C42314 /* Cyan.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DE4A6BFA1E82E77200C42314 /* Cyan.jpg */; };
 		DEFCA3D21E7EBA98008FB099 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCA3D11E7EBA98008FB099 /* AppDelegate.swift */; };
 		DEFCA3D41E7EBA98008FB099 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEFCA3D31E7EBA98008FB099 /* ViewController.swift */; };
 		DEFCA3D71E7EBA98008FB099 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEFCA3D51E7EBA98008FB099 /* Main.storyboard */; };
@@ -20,6 +25,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DE4A6BF21E82E47A00C42314 /* BlueTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlueTableViewController.swift; sourceTree = "<group>"; };
+		DE4A6BF41E82E58900C42314 /* ShadesOfBlueTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShadesOfBlueTableViewCell.swift; sourceTree = "<group>"; };
+		DE4A6BF61E82E76D00C42314 /* Purple.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Purple.jpg; sourceTree = "<group>"; };
+		DE4A6BF71E82E76D00C42314 /* Darkblue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Darkblue.jpg; sourceTree = "<group>"; };
+		DE4A6BFA1E82E77200C42314 /* Cyan.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cyan.jpg; sourceTree = "<group>"; };
 		DEFCA3CE1E7EBA98008FB099 /* ColorsTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorsTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEFCA3D11E7EBA98008FB099 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DEFCA3D31E7EBA98008FB099 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +77,8 @@
 				DEFCA3D11E7EBA98008FB099 /* AppDelegate.swift */,
 				DEFCA3D31E7EBA98008FB099 /* ViewController.swift */,
 				DEFCA3D51E7EBA98008FB099 /* Main.storyboard */,
+				DE4A6BF41E82E58900C42314 /* ShadesOfBlueTableViewCell.swift */,
+				DE4A6BF21E82E47A00C42314 /* BlueTableViewController.swift */,
 				DEFCA3EB1E7EBC7F008FB099 /* ColorTableViewCell.swift */,
 				DEFCA3D81E7EBA98008FB099 /* Assets.xcassets */,
 				DEFCA3DA1E7EBA98008FB099 /* LaunchScreen.storyboard */,
@@ -75,6 +87,9 @@
 				DEFCA3E51E7EBB4F008FB099 /* Yellow.jpg */,
 				DEFCA3E61E7EBB4F008FB099 /* Red.jpg */,
 				DEFCA3E71E7EBB4F008FB099 /* Green.jpg */,
+				DE4A6BF61E82E76D00C42314 /* Purple.jpg */,
+				DE4A6BF71E82E76D00C42314 /* Darkblue.jpg */,
+				DE4A6BFA1E82E77200C42314 /* Cyan.jpg */,
 			);
 			path = ColorsTableView;
 			sourceTree = "<group>";
@@ -139,11 +154,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				DEFCA3DC1E7EBA98008FB099 /* LaunchScreen.storyboard in Resources */,
+				DE4A6BF81E82E76D00C42314 /* Purple.jpg in Resources */,
+				DE4A6BFB1E82E77200C42314 /* Cyan.jpg in Resources */,
 				DEFCA3E81E7EBB4F008FB099 /* Yellow.jpg in Resources */,
 				DEFCA3D91E7EBA98008FB099 /* Assets.xcassets in Resources */,
 				DEFCA3EA1E7EBB4F008FB099 /* Green.jpg in Resources */,
 				DEFCA3E91E7EBB4F008FB099 /* Red.jpg in Resources */,
 				DEFCA3D71E7EBA98008FB099 /* Main.storyboard in Resources */,
+				DE4A6BF91E82E76D00C42314 /* Darkblue.jpg in Resources */,
 				DEFCA3E41E7EBB4A008FB099 /* Blue.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -155,9 +173,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE4A6BF51E82E58900C42314 /* ShadesOfBlueTableViewCell.swift in Sources */,
 				DEFCA3D41E7EBA98008FB099 /* ViewController.swift in Sources */,
 				DEFCA3D21E7EBA98008FB099 /* AppDelegate.swift in Sources */,
 				DEFCA3EC1E7EBC7F008FB099 /* ColorTableViewCell.swift in Sources */,
+				DE4A6BF31E82E47A00C42314 /* BlueTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +337,7 @@
 				DEFCA3E21E7EBA98008FB099 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
